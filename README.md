@@ -24,6 +24,7 @@ Le mobis "Effet WIRED: SuperWired" est toujours en cours de développement. Il a
 ➕**fastwalkall**:<true|false|toggle> [base/ad-f:value]  
 ➕**roomdiagonal**:<true|false|toggle> [duration/ad-f:value]  
 ➕**roomlock**:<true|false|toggle> [duration/ad-f:value]  
+➕**roomingame**:<true|false|toggle> [duration/ad-f:value]  
 
 ## Sans valeur
 ➕**enable** (random) [base]  
@@ -34,6 +35,8 @@ Le mobis "Effet WIRED: SuperWired" est toujours en cours de développement. Il a
 ➕**handitemall** (random) [base]  
 ➕**dance** (random) [base/ad-f:value]  
 ➕**danceall** (random) [base/ad-f:value]  
+➕**rotate** (random) [base/ad-irh]  
+➕**rotateall** (random) [base/ad-irh]  
 ➕**sit** [base/ad-f]  
 ➕**sitall** [base/ad-f]  
 ➕**stand** [base]  
@@ -51,6 +54,7 @@ Le mobis "Effet WIRED: SuperWired" est toujours en cours de développement. Il a
 ➕**fastwalkall** (mode toggle) [base/ad-f]  
 ➕**roomdiagonal** (mode toggle) [duration/ad-f]  
 ➕**roomlock** (mode toggle) [duration/ad-f]  
+➕**roomingame** (mode toggle) [duration/ad-f]  
 
 # Paramètres existants
 
