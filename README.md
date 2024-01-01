@@ -2,15 +2,7 @@
 
 Le mobis "Effet WIRED: SuperWired" est toujours en cours de développement. Il a été recoder entièrement et demande des tests afin de valider ses capacités. **Si vous rencontrez des bugs, merci de bien vouloir les signaler!** Ils sont éventuellement à prévoir et seront résolus dans les plus brefs délais.
 
-# Exemples et instructions
-
-Les commandes entières peuvent être enchaînées lorsqu'elles sont séparées par des barres verticales (`|`):  
-```rotateall:1 direction:clockwise|enableall:1 duration:1500 duration_unit:ms```  
-<sub>*Tourne tous les joueurs de 1 cran dans le sens horloger tout en leur activant l'effet 1 pendant 1500ms (1.5s).*</sub>
-
-Les paramètres peuvent être enchaînées lorsqu'ils sont séparés par des espaces (` `):  
-```enable:1 only-players surface:(3;7)(13;11) duration:10 delay:3 ad-f:previous```  
-<sub>*Active l'effet 1 pour les joueurs de rank inférieur à 4, se trouvant dans la surface donnée, pour une durée de 10 secondes, 3 secondes après le déclenchement du wired, avec un retour à l'effet précédent à la fin de la durée.*</sub>
+**Les exemples et instructions se trouvent en bas de page.**
 
 # Commandes
 
@@ -78,3 +70,13 @@ base = [surface/except-surface/players-only/staffs-only/duration]
 ➕**staffs-only**/**except-players** - *n'active l'effet que pour les staffs et non les joueurs*  
 ➕**ad-f** - *[`duration` requit] after-duration-force: force l'effet à revenir à sa valeur initiale après exécution de la commande*  
 ➕**ad-irh** - *[`duration` requit] after-duration-ignore-rotated-habbos: ignore les habbos ayant changé de rotation durant la période de `duration`*  
+
+# Exemples et instructions
+
+Les commandes entières peuvent être enchaînées lorsqu'elles sont séparées par des barres verticales (`|`):  
+```rotateall:1 direction:clockwise|enableall:1 duration:1500 duration_unit:ms```  
+<sub>*Tourne tous les joueurs de 1 cran dans le sens horloger tout en leur activant l'effet 1 pendant 1500ms (1.5s).*</sub>
+
+Les paramètres peuvent être enchaînées lorsqu'ils sont séparés par des espaces (` `):  
+```enable:1 only-players surface:(3;7)(13;11) duration:10 delay:3 ad-f:previous```  
+<sub>*Active l'effet 1 pour les joueurs de rank inférieur à 4, se trouvant dans la surface donnée, pour une durée de 10 secondes, 3 secondes après le déclenchement du wired, avec un retour à l'effet précédent à la fin de la durée.*</sub>
