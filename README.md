@@ -6,11 +6,11 @@ Le mobis "Effet WIRED: SuperWired" est toujours en cours de développement. Il a
 
 Les commandes entières peuvent être enchaînées lorsqu'elles sont séparées par des barres verticales (`|`):  
 ```rotateall:1 direction:clockwise|enableall:1 duration:1500 duration_unit:ms```  
-<sub>*Tourne tous les joueurs de 1 dans le sens horloger tout en leur activant l'effet 1 pendant 1500ms (1.5s).*</sub>
+<sub>*Tourne tous les joueurs de 1 cran dans le sens horloger tout en leur activant l'effet 1 pendant 1500ms (1.5s).*</sub>
 
 Les paramètres peuvent être enchaînées lorsqu'ils sont séparés par des espaces (` `):  
 ```enable:1 only-players surface:(3;7)(13;11) duration:10 delay:3 ad-f:previous```  
-<sub>*Active l'effet 1 pour les joueurs de rank 1, se trouvant dans la surface donnée, pour une durée de 10 secondes, 3 secondes après le déclenchement du wired, avec un retour à l'effet précent à la fin de la durée.*</sub>
+<sub>*Active l'effet 1 pour les joueurs de rank inférieur à 4, se trouvant dans la surface donnée, pour une durée de 10 secondes, 3 secondes après le déclenchement du wired, avec un retour à l'effet précent à la fin de la durée.*</sub>
 
 # Commandes
 
