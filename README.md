@@ -6,7 +6,7 @@ Le mobis "Effet WIRED: SuperWired" est toujours en cours de développement. Il a
 
 # Commandes
 
-*cf. "Paramètres existants" pour définition de "base"*
+*cf. "Paramètres existants" pour définition de `base`*
 
 ## Avec valeur
 ➕**enable**:<id (0-199, 500-688, 700)> [base]  
@@ -22,9 +22,13 @@ Le mobis "Effet WIRED: SuperWired" est toujours en cours de développement. Il a
 ➕**moonwalkall**:<true|false|toggle> [base/ad-f:value]  
 ➕**fastwalk**:<true|false|toggle> [base/ad-f:value]  
 ➕**fastwalkall**:<true|false|toggle> [base/ad-f:value]  
-➕**roomdiagonal**:<true|false|toggle> [duration/ad-f:value]  
-➕**roomlock**:<true|false|toggle> [duration/ad-f:value]  
-➕**roomingame**:<true|false|toggle> [duration/ad-f:value]  
+➕**roomdiagonal**:<true|false|toggle> [duration/delay/ad-f:value]  
+➕**roomlock**:<true|false|toggle> [duration/delay/ad-f:value]  
+➕**roomingame**:<true|false|toggle> [duration/delay/ad-f:value]  
+
+#### Rank requit:
+
+➕**givediamonds**:\<int> [delay] **(Rank 7+)**
 
 ## Sans valeur
 ➕**enable** (random) [base]  
@@ -47,18 +51,20 @@ Le mobis "Effet WIRED: SuperWired" est toujours en cours de développement. Il a
 ➕**freezeall** [base]  
 ➕**unfreeze** [base]  
 ➕**unfreezeall** [base]  
-➕**resetspeed** (="setspeed:0") [base]  
+➕**resetspeed** (identique à "setspeed:4") [base]  
 ➕**moonwalk** (mode toggle) [base/ad-f]  
 ➕**moonwalkall** (mode toggle) [base/ad-f]  
 ➕**fastwalk** (mode toggle) [base/ad-f]  
 ➕**fastwalkall** (mode toggle) [base/ad-f]  
-➕**roomdiagonal** (mode toggle) [duration/ad-f]  
-➕**roomlock** (mode toggle) [duration/ad-f]  
-➕**roomingame** (mode toggle) [duration/ad-f]  
+➕**roomdiagonal** (mode toggle) [duration/delay/ad-f]  
+➕**roomlock** (mode toggle) [duration/delay/ad-f]  
+➕**roomingame** (mode toggle) [duration/delay/ad-f]  
 
-# Paramètres existants
+# Paramètres supplémentaires
 
-base = [surface/except-surface/players-only/staffs-only/duration]
+**`delay` est disponnible sur TOUTES les commandes.**
+
+`base` = [duration/surface/except-surface/players-only/staffs-only]
 
 ## Avec valeur
 ➕**surface:(x1;y1)(x2;y2)** - *n'active l'effet que sur cette surface*  
