@@ -1,4 +1,5 @@
-# Informations
+# SuperWired (Effet)
+## Informations
 
 Le mobis "Effet WIRED: SuperWired" est toujours en cours de développement. Il a été recoder entièrement et demande des tests afin de valider ses capacités. **Si vous rencontrez des bugs, merci de bien vouloir les signaler!** Ils sont éventuellement à prévoir et seront résolus dans les plus brefs délais.
 
