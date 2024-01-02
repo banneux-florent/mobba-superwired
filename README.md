@@ -30,6 +30,8 @@ Le mobis "Effet WIRED: SuperWired" est toujours en cours de développement. Il a
 #### Rank requit:
 
 ➕**givediamonds**:\<int> [delay] **(Rank 7+)**
+➕**giveduckets**:\<int> [delay] **(Rank 7+)**
+➕**givediamonds**:\<int> [delay] **(Rank 7+)**
 
 ## Sans valeur
 ➕**enable** (random) [base]  
