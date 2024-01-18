@@ -26,9 +26,6 @@ Le mobis "Effet WIRED: SuperWired" est toujours en cours de développement. Il a
 ➕**roomdiagonal**:<true|false|toggle> [duration/delay/ad-f:value]  
 ➕**roomlock**:<true|false|toggle> [duration/delay/ad-f:value]  
 ➕**roomingame**:<true|false|toggle> [duration/delay/ad-f:value]  
-➕**hs-add**:<int> [base/itemid]  
-➕**hs-sub**:<int> [base/itemid]  
-➕**hs-set**:<int> [base/itemid]  
 
 #### Rank requit:
 
@@ -65,7 +62,6 @@ Le mobis "Effet WIRED: SuperWired" est toujours en cours de développement. Il a
 ➕**roomdiagonal** (mode toggle) [duration/delay/ad-f]  
 ➕**roomlock** (mode toggle) [duration/delay/ad-f]  
 ➕**roomingame** (mode toggle) [duration/delay/ad-f]  
-➕**hs-reset** [base/itemid]  
 
 # Paramètres supplémentaires
 
