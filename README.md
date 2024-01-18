@@ -77,7 +77,6 @@ Le mobis "Effet WIRED: SuperWired" est toujours en cours de développement. Il a
 ➕**duration**:<int = infini> - *Active pendant une certaine durée*  
 ➕**duration_unit**:<h|m|s|ms = s> - *[`duration` requit] Défini l'unité de temps du paramètre `delay`*  
 ➕**ad-f**:<reset|previous> - *[`duration` requit] after-duration-force: force l'effet à revenir à sa valeur initiale ou à sa valeur antérieure à l'exécution de la commande*  
-➕**itemid**:<int> - *Défini l'item qui sera affecté par l'effet depuis son id*  
 
 ## Sans valeur
 ➕**players-only**/**except-staffs** - *n'active l'effet que pour les joueurs et non les staffs*  
